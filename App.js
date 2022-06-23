@@ -24,9 +24,9 @@ const handlePressGoToGithub = async ()=>{
         style={styles.avatar} 
         source={{uri: imagem}}
         />
-        <Text accessibilityLabel='Waldyr Soares' style={[styles.defaultText, styles.name]}>Waldyr Soares</Text>
-        <Text accessibilityLabel='waldyrssf' style={[styles.defaultText, styles.nickname]}>waldyrssf</Text>
-        <Text accessibilityLabel='Descrição: Graduando em Sistemas para Internet | Graduado em Administração de empresas' 
+        <Text accessibilityLabel='Nome: Waldyr Soares' style={[styles.defaultText, styles.name]}>Waldyr Soares</Text>
+        <Text accessibilityLabel='Nickname: waldyrssf' style={[styles.defaultText, styles.nickname]}>waldyrssf</Text>
+        <Text accessibilityLabel='Descrição do perfil: Graduando em Sistemas para Internet | Graduado em Administração de empresas' 
         style={[styles.defaultText, styles.description]}>Graduando em Sistemas para Internet | Graduado em Administração de empresas
         </Text>
 
