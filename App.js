@@ -20,7 +20,7 @@ const handlePressGoToGithub = async ()=>{
       <StatusBar backgroundColor={colorGithub} barStyle="light-content"/>
       <View style={styles.content}>
         <Image 
-        accessibilityLabel='Waldyr com o porto digital no backg' 
+        accessibilityLabel='Foto pessoal de Waldyr' 
         style={styles.avatar} 
         source={{uri: imagem}}
         />
