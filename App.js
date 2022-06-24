@@ -103,3 +103,5 @@ const styles = StyleSheet.create({
     fontWeight:"bold",
   }
 });
+
+//para quando atualizar: Tela de profile GITHUB- DIO
