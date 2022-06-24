@@ -18,6 +18,13 @@ const handlePressGoToGithub = async ()=>{
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar backgroundColor={colorGithub} barStyle="light-content"/>
+      <View>
+
+      <Text style={styles.welcoming}>
+            Boas-vindas ao meu perfil!
+          </Text>
+
+      </View>
       <View style={styles.content}>
         <Image 
         accessibilityLabel='Foto pessoal de Waldyr' 
@@ -101,6 +108,11 @@ const styles = StyleSheet.create({
   textButton:{
     fontSize: 16,
     fontWeight:"bold",
+  },
+  welcoming:{
+    fontSize: 25,
+    fontWeight:"bold",
+    color: "white",
   }
 });
 
