@@ -13,4 +13,4 @@ Utilizando o React Native como parte do aprendizado do Bootcamp Decola Tech 3a e
   - Array de Style;
   - Pressable;
   
- ![image](C:\Users\waldy\Downloads\WhatsApp Image 2022-06-23 at 23.39.25.jpeg)
+ ![image]("C:\Users\waldy\Downloads\WhatsApp Image 2022-06-23 at 23.39.25.jpeg")
