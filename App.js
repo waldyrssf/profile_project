@@ -27,14 +27,19 @@ const handlePressGoToGithub = async ()=>{
         <Text accessibilityLabel='Nome: Waldyr Soares' style={[styles.defaultText, styles.name]}>Waldyr Soares</Text>
         <Text accessibilityLabel='Nickname: waldyrssf' style={[styles.defaultText, styles.nickname]}>waldyrssf</Text>
         <Text accessibilityLabel='Descrição do perfil: Graduando em Sistemas para Internet | Graduado em Administração de empresas' 
-        style={[styles.defaultText, styles.description]}>Graduando em Sistemas para Internet | Graduado em Administração de empresas
+        style={[styles.defaultText, styles.description]}>Graduando em Sistemas para Internet 
+        
+        </Text>
+        <Text accessibilityLabel='Descrição do perfil:  Graduado em Administração de empresas' 
+        style={[styles.defaultText, styles.description]}> 
+        Graduado em Administração de empresas
         </Text>
 
         <Pressable onPress={handlePressGoToGithub}>
 
         <View style = {styles.button}>
           <Text style = {[styles.defaultText, styles.textButton]}>
-            Open in Github
+            Ir para Github
           </Text>
         </View>
         </Pressable>
@@ -62,6 +67,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   avatar: {
+    marginBottom: 10,
     height: 200,
     width: 200,
     borderRadius: 100,
@@ -72,7 +78,7 @@ const styles = StyleSheet.create({
     color: colorfont,
   },
   name:{
-    marginTop:20,
+   marginTop:20,
    fontSize: 24, 
    fontWeight: "bold",
   
@@ -84,7 +90,7 @@ const styles = StyleSheet.create({
   description:{
     fontSize: 14,
     fontWeight:"bold",
-  
+
   },
   button:{
     backgroundColor: colordarkfont,
