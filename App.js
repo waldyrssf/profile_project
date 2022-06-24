@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
     backgroundColor: colordarkfont,
     borderRadius: 10,
     padding: 20,
-    marginTop: 20,
+    marginTop: 50,
   },
   textButton:{
     fontSize: 16,
